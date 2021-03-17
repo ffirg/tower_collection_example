@@ -1,5 +1,5 @@
 - name: Demo the Ansible Collection
-  hosts: all
+  hosts: localhost
 
   tasks:
    - name: Gather some real facts.

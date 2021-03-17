@@ -1,0 +1,10 @@
+- name: Demo the Ansible Collection
+  hosts: localhost
+
+  tasks:
+   - name: Gather some real facts.
+      newswangerd.collection_demo.real_facts:
+        name: Phil Griffiths
+      register: testout
+    - debug:
+        msg: "{{ testout }}"

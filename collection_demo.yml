@@ -3,8 +3,8 @@
 
   tasks:
    - name: Gather some real facts.
-      newswangerd.collection_demo.real_facts:
-        name: Phil Griffiths
-      register: testout
-    - debug:
-        msg: "{{ testout }}"
+     newswangerd.collection_demo.real_facts:
+       name: Phil Griffiths
+     register: testout
+   - debug:
+       msg: "{{ testout }}"

@@ -1,0 +1,2 @@
+- name: Just get the list from default pip
+  community.general.pip_package_info:
